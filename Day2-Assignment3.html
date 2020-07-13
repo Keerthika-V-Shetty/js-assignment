@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <h1>Printing current date</h1>
+  </head>
+  <body>
+    <script>
+      var today = new Date();
+      var mon = today.getMonth() + 1;
+      var date = today.getDate();
+      var year = today.getFullYear();
+      var res = mon + ":" + date + ":" + year;
+      document.write("\t Current date is: " + res);
+    </script>
+  </body>
+</html>
